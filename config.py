@@ -7,21 +7,21 @@ load_dotenv()
 # VARS
 
 get_queue = {}
-BOT_TOKEN = getenv("BOT_TOKEN")
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+BOT_TOKEN = getenv("6249475803:AAH6xrFLrnp15Bfsy1KrPXq_9r1hLp5pTcc")
+API_ID = int(getenv("API_ID","22111689"))
+API_HASH = getenv("245005e2737bf35431cc035328a20860")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10"))
 ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("mongodb+srv://<velinxd>:<xloaderhell>@cluster0.2pjepfq.mongodb.net/")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6526659607").split()))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001960654405"))
+MUSIC_BOT_NAME = getenv("VelMusic")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/AyiinXd/MultiAssistant"
+    "UPSTREAM_REPO", "https://github.com/XloaderHell969/AyiinMusic"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
